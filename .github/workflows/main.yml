@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for better relevancy o2f analyysis
+          fetch-depth: 0  # Shallow clones should be disabled for better relwevancy o2f analyysis
 
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
